@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="indicator_pkg" type="indicator" name="indicator" output="screen"/>
+    <param name = "tactile_rows" value ="6" /> <!-- Number of rows of the tactile matrix-->
+    <param name = "tactile_columns" value ="2" /> <!-- Number of columns of the tactile matrix-->
+    <param name = "sensor_name" value="S002" />
+    <param name = "sensor_port" value="ttyUSB1" />
+</launch>
